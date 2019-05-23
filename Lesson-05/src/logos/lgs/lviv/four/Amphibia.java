@@ -3,23 +3,19 @@ package logos.lgs.lviv.four;
 public class Amphibia {
 	String s;
 	
-	String eat() {
-		s="eat";
-		return s;
+	void eat() {
+		System.out.println("eat");
 	}
 	
-	String sleep() {
-		s="sleep";
-		return s;
+	void sleep() {
+		System.out.println("sleep");
+		}
+	
+	void swim() {
+		System.out.println("swim");
 	}
 	
-	String swim() {
-		s="swim";
-		return s;
-	}
-	
-	String walk() {
-		s="walk";
-		return s;
+	void walk() {
+		System.out.println("walk");
 	}
 }
